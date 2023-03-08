@@ -1,0 +1,443 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kodra.kodra"
+4    android:versionCode="1"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\hp\Desktop\kodra\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\hp\Desktop\kodra\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:3:5-71
+16-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:3:22-68
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:4:5-80
+17-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:4:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:5:5-79
+18-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:5:22-77
+19
+20    <queries>
+20-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:7:5-15:15
+21        <intent>
+21-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:8:9-10:18
+22            <action android:name="android.intent.action.TTS_SERVICE" />
+22-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:9:13-72
+22-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:9:21-69
+23        </intent>
+24        <intent>
+24-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:11:9-14:18
+25            <action android:name="android.intent.action.SENDTO" />
+25-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:12:13-67
+25-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:12:21-64
+26
+27            <data android:scheme="mailto" />
+27-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:13:13-45
+27-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:13:19-42
+28        </intent>
+29        <intent>
+29-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+30            <action android:name="android.support.customtabs.action.CustomTabsService" />
+30-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+30-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+31        </intent>
+32
+33        <package android:name="com.google.android.apps.maps" />
+33-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-64
+33-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-61
+34        <package android:name="com.google.android.apps.mapslite" />
+34-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-68
+34-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:11:18-65
+35        <package android:name="com.autonavi.minimap" />
+35-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-56
+35-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:12:18-53
+36        <package android:name="com.baidu.BaiduMap" />
+36-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-54
+36-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:13:18-51
+37        <package android:name="com.waze" />
+37-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-44
+37-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-41
+38        <package android:name="ru.yandex.yandexnavi" />
+38-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-56
+38-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:15:18-53
+39        <package android:name="ru.yandex.yandexmaps" />
+39-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-56
+39-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:16:18-53
+40        <package android:name="com.citymapper.app.release" />
+40-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-62
+40-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:17:18-59
+41        <package android:name="com.mapswithme.maps.pro" />
+41-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-59
+41-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:18:18-56
+42        <package android:name="net.osmand" />
+42-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-46
+42-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:19:18-43
+43        <package android:name="net.osmand.plus" />
+43-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-51
+43-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:20:18-48
+44        <package android:name="ru.dublgis.dgismobile" />
+44-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-57
+44-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:21:18-54
+45        <package android:name="com.tencent.map" />
+45-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-51
+45-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:22:18-48
+46        <package android:name="com.here.app.maps" />
+46-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-53
+46-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:23:18-50
+47        <package android:name="com.huawei.maps.app" />
+47-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-55
+47-->[:map_launcher] C:\Users\hp\Desktop\kodra\build\map_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:24:18-52
+48    </queries>
+49
+50    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+50-->[:geolocator_android] C:\Users\hp\Desktop\kodra\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+50-->[:geolocator_android] C:\Users\hp\Desktop\kodra\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+51    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+51-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+51-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+52    <uses-permission android:name="android.permission.VIBRATE" />
+52-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+52-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+53    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+53-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+53-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+54    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+54-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+54-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+55    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+55-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+55-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+56    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+56-->[:speech_to_text] C:\Users\hp\Desktop\kodra\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-76
+56-->[:speech_to_text] C:\Users\hp\Desktop\kodra\build\speech_to_text\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-73
+57    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+57-->[:connectivity_plus] C:\Users\hp\Desktop\kodra\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+57-->[:connectivity_plus] C:\Users\hp\Desktop\kodra\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+58    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+58-->[:location] C:\Users\hp\Desktop\kodra\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+58-->[:location] C:\Users\hp\Desktop\kodra\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+59    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+59-->[:location] C:\Users\hp\Desktop\kodra\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+59-->[:location] C:\Users\hp\Desktop\kodra\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+60
+61    <application
+62        android:name="android.app.Application"
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.8.0] C:\Users\hp\.gradle\caches\transforms-3\0ce731f8c62e88af9af421907435d7da\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+64        android:debuggable="true"
+65        android:icon="@mipmap/launcher_icon"
+66        android:label="Qudra" >
+67        <activity
+68            android:name="com.kodra.kodra.MainActivity"
+69            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+70            android:exported="true"
+71            android:hardwareAccelerated="true"
+72            android:launchMode="singleTop"
+73            android:theme="@style/LaunchTheme"
+74            android:windowSoftInputMode="adjustResize" >
+75
+76            <!--
+77                 Specifies an Android theme to apply to this Activity as soon as
+78                 the Android process has started. This theme is visible to the user
+79                 while the Flutter UI initializes. After that, this theme continues
+80                 to determine the Window background behind the Flutter UI.
+81            -->
+82            <meta-data
+83                android:name="io.flutter.embedding.android.NormalTheme"
+84                android:resource="@style/NormalTheme" />
+85
+86            <intent-filter>
+87                <action android:name="android.intent.action.MAIN" />
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+90
+91                <action android:name="android.intent.action.SENDTO" />
+91-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:12:13-67
+91-->C:\Users\hp\Desktop\kodra\android\app\src\main\AndroidManifest.xml:12:21-64
+92            </intent-filter>
+93        </activity>
+94        <!--
+95             Don't delete the meta-data below.
+96             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+97        -->
+98        <meta-data
+99            android:name="flutterEmbedding"
+100            android:value="2" />
+101
+102        <service
+102-->[:firebase_database] C:\Users\hp\Desktop\kodra\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+103            android:name="com.google.firebase.components.ComponentDiscoveryService"
+103-->[:firebase_database] C:\Users\hp\Desktop\kodra\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+104            android:directBootAware="true"
+104-->[com.google.firebase:firebase-common:20.2.0] C:\Users\hp\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+105            android:exported="false" >
+105-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\hp\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:31:13-37
+106            <meta-data
+106-->[:firebase_database] C:\Users\hp\Desktop\kodra\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+107                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+107-->[:firebase_database] C:\Users\hp\Desktop\kodra\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-127
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[:firebase_database] C:\Users\hp\Desktop\kodra\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+109            <meta-data
+109-->[:firebase_storage] C:\Users\hp\Desktop\kodra\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+110                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+110-->[:firebase_storage] C:\Users\hp\Desktop\kodra\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[:firebase_storage] C:\Users\hp\Desktop\kodra\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+112            <meta-data
+112-->[:firebase_core] C:\Users\hp\Desktop\kodra\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+113                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+113-->[:firebase_core] C:\Users\hp\Desktop\kodra\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[:firebase_core] C:\Users\hp\Desktop\kodra\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\hp\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+116                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+116-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\hp\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\hp\.gradle\caches\transforms-3\0da25f878ca7fc72a1a3e4059e81557e\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-database:20.1.0] C:\Users\hp\.gradle\caches\transforms-3\213a1dfac06a559ac66124b026fba95a\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+119                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+119-->[com.google.firebase:firebase-database:20.1.0] C:\Users\hp\.gradle\caches\transforms-3\213a1dfac06a559ac66124b026fba95a\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-database:20.1.0] C:\Users\hp\.gradle\caches\transforms-3\213a1dfac06a559ac66124b026fba95a\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+121        </service>
+122        <service
+122-->[:geolocator_android] C:\Users\hp\Desktop\kodra\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+123            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+123-->[:geolocator_android] C:\Users\hp\Desktop\kodra\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+124            android:enabled="true"
+124-->[:geolocator_android] C:\Users\hp\Desktop\kodra\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+125            android:exported="false"
+125-->[:geolocator_android] C:\Users\hp\Desktop\kodra\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+126            android:foregroundServiceType="location" />
+126-->[:geolocator_android] C:\Users\hp\Desktop\kodra\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+127
+128        <receiver
+128-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+129            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+129-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+130            android:exported="false" />
+130-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+131        <receiver
+131-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+132            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+132-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+133            android:exported="false" />
+133-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+134        <receiver
+134-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+135            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+135-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+136            android:exported="false" >
+136-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+137            <intent-filter>
+137-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+138                <action android:name="android.intent.action.BOOT_COMPLETED" />
+138-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+138-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+139                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+139-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+139-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+140                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+140-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+140-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+141                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+141-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+141-->[:flutter_local_notifications] C:\Users\hp\Desktop\kodra\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+142            </intent-filter>
+143        </receiver>
+144
+145        <activity
+145-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+146            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+146-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+147            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+147-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+148            android:exported="false"
+148-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+149            android:theme="@style/AppTheme" />
+149-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+150        <activity
+150-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+151            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+151-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+152            android:exported="false"
+152-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+153            android:theme="@style/ThemeTransparent" />
+153-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+154        <activity
+154-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+155            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+155-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+156            android:exported="false"
+156-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+157            android:theme="@style/ThemeTransparent" />
+157-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+158        <activity
+158-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+159            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+159-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+160            android:exported="false"
+160-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+161            android:launchMode="singleInstance"
+161-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+162            android:theme="@style/ThemeTransparent" />
+162-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+163        <activity
+163-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+164            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+164-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+165            android:exported="false"
+165-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+166            android:launchMode="singleInstance"
+166-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+167            android:theme="@style/ThemeTransparent" />
+167-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+168
+169        <receiver
+169-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+170            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+170-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+171            android:enabled="true"
+171-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+172            android:exported="false" />
+172-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+173
+174        <meta-data
+174-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+175            android:name="io.flutter.embedded_views_preview"
+175-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+176            android:value="true" />
+176-->[:flutter_inappwebview] C:\Users\hp\Desktop\kodra\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+177
+178        <provider
+178-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+179            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+179-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+180            android:authorities="com.kodra.kodra.flutter.image_provider"
+180-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+181            android:exported="false"
+181-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+182            android:grantUriPermissions="true" >
+182-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+183            <meta-data
+183-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+184                android:name="android.support.FILE_PROVIDER_PATHS"
+184-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+185                android:resource="@xml/flutter_image_picker_file_paths" />
+185-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+186        </provider>
+187        <provider
+187-->[:flutter_email_sender] C:\Users\hp\Desktop\kodra\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+188            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+188-->[:flutter_email_sender] C:\Users\hp\Desktop\kodra\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+189            android:authorities="com.kodra.kodra.file_provider"
+189-->[:flutter_email_sender] C:\Users\hp\Desktop\kodra\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-65
+190            android:exported="false"
+190-->[:flutter_email_sender] C:\Users\hp\Desktop\kodra\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+191            android:grantUriPermissions="true" >
+191-->[:flutter_email_sender] C:\Users\hp\Desktop\kodra\build\flutter_email_sender\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+192            <meta-data
+192-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+193                android:name="android.support.FILE_PROVIDER_PATHS"
+193-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+194                android:resource="@xml/shared_file_paths" />
+194-->[:image_picker_android] C:\Users\hp\Desktop\kodra\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+195        </provider>
+196
+197        <activity
+197-->[:url_launcher_android] C:\Users\hp\Desktop\kodra\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+198            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+198-->[:url_launcher_android] C:\Users\hp\Desktop\kodra\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+199            android:exported="false"
+199-->[:url_launcher_android] C:\Users\hp\Desktop\kodra\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+200            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+200-->[:url_launcher_android] C:\Users\hp\Desktop\kodra\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+201
+202        <service
+202-->[:location] C:\Users\hp\Desktop\kodra\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+203            android:name="com.lyokone.location.FlutterLocationService"
+203-->[:location] C:\Users\hp\Desktop\kodra\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+204            android:enabled="true"
+204-->[:location] C:\Users\hp\Desktop\kodra\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+205            android:exported="false"
+205-->[:location] C:\Users\hp\Desktop\kodra\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+206            android:foregroundServiceType="location" />
+206-->[:location] C:\Users\hp\Desktop\kodra\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+207
+208        <uses-library
+208-->[androidx.window:window:1.0.0-beta04] C:\Users\hp\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+209            android:name="androidx.window.extensions"
+209-->[androidx.window:window:1.0.0-beta04] C:\Users\hp\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+210            android:required="false" />
+210-->[androidx.window:window:1.0.0-beta04] C:\Users\hp\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+211        <uses-library
+211-->[androidx.window:window:1.0.0-beta04] C:\Users\hp\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+212            android:name="androidx.window.sidecar"
+212-->[androidx.window:window:1.0.0-beta04] C:\Users\hp\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+213            android:required="false" />
+213-->[androidx.window:window:1.0.0-beta04] C:\Users\hp\.gradle\caches\transforms-3\542a859793ec57d6a4d40865c7efc6d9\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+214
+215        <activity
+215-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+216            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+216-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hp\.gradle\caches\transforms-3\19fea4fb28dedd992824e13cc158e7a1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+219
+220        <provider
+220-->[com.google.firebase:firebase-common:20.2.0] C:\Users\hp\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+221            android:name="com.google.firebase.provider.FirebaseInitProvider"
+221-->[com.google.firebase:firebase-common:20.2.0] C:\Users\hp\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+222            android:authorities="com.kodra.kodra.firebaseinitprovider"
+222-->[com.google.firebase:firebase-common:20.2.0] C:\Users\hp\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+223            android:directBootAware="true"
+223-->[com.google.firebase:firebase-common:20.2.0] C:\Users\hp\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+224            android:exported="false"
+224-->[com.google.firebase:firebase-common:20.2.0] C:\Users\hp\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+225            android:initOrder="100" />
+225-->[com.google.firebase:firebase-common:20.2.0] C:\Users\hp\.gradle\caches\transforms-3\c1f7cd0e68ddf89c76a753ac7fd1a66c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+226
+227        <meta-data
+227-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\hp\.gradle\caches\transforms-3\3ee0f8915dc9bf42c60f3eef0b7bd28a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+228            android:name="com.google.android.gms.version"
+228-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\hp\.gradle\caches\transforms-3\3ee0f8915dc9bf42c60f3eef0b7bd28a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+229            android:value="@integer/google_play_services_version" />
+229-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\hp\.gradle\caches\transforms-3\3ee0f8915dc9bf42c60f3eef0b7bd28a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+230
+231        <provider
+231-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+232            android:name="androidx.startup.InitializationProvider"
+232-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+233            android:authorities="com.kodra.kodra.androidx-startup"
+233-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+234            android:exported="false" >
+234-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+235            <meta-data
+235-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+236                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+236-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+237                android:value="androidx.startup" />
+237-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hp\.gradle\caches\transforms-3\c281d16a254c20644b7ca9ee2ab75c66\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+238            <meta-data
+238-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hp\.gradle\caches\transforms-3\67b5ed60ff2c2a42fdde7eef68ce00e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+239                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+239-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hp\.gradle\caches\transforms-3\67b5ed60ff2c2a42fdde7eef68ce00e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+240                android:value="androidx.startup" />
+240-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hp\.gradle\caches\transforms-3\67b5ed60ff2c2a42fdde7eef68ce00e0\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+241        </provider>
+242    </application>
+243
+244</manifest>
